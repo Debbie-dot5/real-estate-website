@@ -24,6 +24,7 @@ header nav {
     background-color: rgb(76,77,98);
     margin: 0;
    padding: 18px 20px;
+    width: 100vw;
 }
 
 
@@ -80,8 +81,14 @@ ul{
 
 }
 
+/* this should by default set every list tag to a style of none */
+li{
+    list-style: none;
+}
+
 ul li a{
-    margin-left: 5px;
+/*     margin-left: 5px; */
+    padding-left: 5px;
     list-style: none;
     text-decoration: none;
     color: white;
